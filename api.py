@@ -10,7 +10,7 @@ import uuid
 
 def tencent_cloud_com(voicetype,voicetext):
     try:
-        cred = credential.Credential("AKIDCG6h3B7pJbhcJ2YprgHdv30jDSRBi16w", "cy4uUqzsVszrVu40h9ML8h16wXt0sUry")
+        cred = credential.Credential("xxxxxx", "xxxxxx")
         httpProfile = HttpProfile()
         httpProfile.endpoint = "tts.tencentcloudapi.com"
         voicetype = voicetype # 播音声音类型
